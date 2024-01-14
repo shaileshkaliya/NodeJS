@@ -12,7 +12,7 @@ app.get('/', (req,res) => {
 
 // middlewear for routes
 
-app.use('/api/products', rotuter);
+app.use('/api/products', router);
 
 const start = async () => {
     try {
